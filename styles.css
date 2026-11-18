@@ -1,0 +1,39 @@
+body{
+    width: 1000px;
+    background-image: url("hatter.jpg");
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+tr:nth-child(odd){
+    background-color:lightskyblue;
+}
+header{
+    text-align: center;
+}
+main{
+    display:grid;
+    grid-template-areas:
+    "h h h"
+    "n n n"
+}
+header{
+    grid-area:h
+}
+
+nav{
+    grid-area:n
+}
+article{
+    grid-area:a
+}
+
+footer{
+    grid-area:f
+}
+nav.kepek{
+border:1px solid lightblue
+}
+    
+
